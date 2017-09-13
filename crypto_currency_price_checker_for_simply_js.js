@@ -31,7 +31,7 @@ var $modes = [
   },
   {
     "subtitle": "XRP: $cc_jpy_xrp\nXEM: $cc_jpy_xem",
-    "body": "BTC: $cc_jpy_btc\nBCH: $cc_jpy_bch"
+    "body": "BTC: $cc_jpy_btc\nBCH: $cc_jpy_bch"\nLISK: $cc_jpy_lsk"
   },
 ]
 
