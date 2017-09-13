@@ -94,7 +94,7 @@ try {
     async: false
   }, function (data) {
     for (var i in data["jpy"]) {
-      // 丸め桁を調整する場合は、digitsを適宜設定する -> 現状CCのJPYと各取引所のUSD(T)ペアのみfloatFormatを使用
+      // 丸め桁を調整する場合は、digitsを適宜設定する  現状CCのJPYと各取引所のUSD(T)ペアのみfloatFormatを使用
       $status["cc_jpy_" + i] = {
         "value": "xxxx",
         "digits": 2
